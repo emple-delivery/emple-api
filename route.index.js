@@ -1,6 +1,6 @@
-const authRouter = require('./routes/auth.router');
-const vehicleRouter = require('./routes/vehicle.router');
-const deliveryRouter = require('./routes/delivery.router');
+const authRouter = require('./routes/auth.routes');
+const vehicleRouter = require('./routes/vehicle.routes');
+const deliveryRouter = require('./routes/delivery.routes');
 const express = require('express');
 const router = express.Router();
 
